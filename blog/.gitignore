@@ -1,0 +1,34 @@
+# Ignore l'environnement virtuel
+venv/
+env/
+ENV/
+
+# Ignore les fichiers Python compilés
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore les fichiers de base de données (SQLite)
+*.sqlite3
+
+# Ignore les fichiers de log
+*.log
+
+# Ignore les fichiers d'environnement (ex: secrets)
+*.env
+
+# Ignore les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignore les fichiers/dossiers de l'IDE
+.vscode/
+.idea/
+
+# Ignore les fichiers de migrations inutiles (optionnel)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# Ignore les fichiers statiques et médias générés automatiquement
+/staticfiles/
+/media/
