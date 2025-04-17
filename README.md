@@ -26,7 +26,7 @@ Ce projet permet de publier, consulter et gérer des articles depuis une interfa
 
 ```bash
 # Cloner le projet
-git clone https://github.com/<TON-UTILISATEUR>/blog-avec-django.git
+git clone https://github.com/Tametong/blog-avec-django.git
 cd blog-avec-django
 
 # Créer un environnement virtuel
