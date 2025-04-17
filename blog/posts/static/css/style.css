@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+ol,ul {
+    list-style: none;
+}
+
+body{
+   
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+margin: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+h1{
+    font-size: 1.8em;
+    font-weight: bold;
+    padding:20px;
+}
+
+article{
+    width: 85%;
+    margin-bottom: 30px;
+}
+
+article h2{
+    font-weight: 100;
+    padding: 10px 0;
+}
+ 
+.para{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin: 10px auto;
+}
+
+.links{
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    padding: 0 8px;
+}
+
+.edit{
+    color: green;
+}
+
+.delete{
+    color: red;
+}
+
+
+button, .btn{
+    border: none;
+    padding: 8px;
+    background-color: rgb(39, 122, 218);
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.3em;
+    margin-top: 10px;
+}
+
+input, textarea{
+    display:  block;
+    padding: 10px;
+    line-height: 1.5;
+    border : 1px solid #ccc;
+    border-radius: 0;
+   width: 100%;
+    outline: 0;
+}
+
+.btn-submit{
+    background-color: green;
+}
+
+img{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.btn-delete{
+    background-color: red;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0;
+    outline: 0;
+}
+
+label{
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+@media (min-width:800px) {
+    article {
+        width: 50%;
+    }
+}

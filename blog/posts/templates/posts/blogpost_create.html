@@ -1,0 +1,10 @@
+{% extends 'posts/base.html' %} {% block title %}
+<title>Créer un article</title>
+{% endblock %} {% block content %}
+<h1>Ajouter un article</h1>
+<form method="post" enctype="multipart/form-data">
+	{% csrf_token %} {{form}}
+	<input type="submit" class="btn btn-submit" value="Créer" />
+</form>
+
+{% endblock %}

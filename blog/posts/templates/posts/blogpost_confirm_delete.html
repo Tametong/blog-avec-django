@@ -1,0 +1,14 @@
+{% extends 'posts/base.html' %}
+
+{% block title %}
+    <title>Supprimer un article</title>
+{% endblock %}
+
+{% block content %}
+    <form  method="post">
+        {% csrf_token %}
+        <p>Êtes-vous sûr de voulir supprimer "{{post.title}}"?</p>
+        <input type="submit" value="Supprimer" class="btn btn-delete">
+    </form>
+
+{% endblock %}
